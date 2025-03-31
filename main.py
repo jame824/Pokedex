@@ -8,10 +8,10 @@ from pynput.keyboard import Key, Listener
 
 dexwindow = tk.Tk()
 dexwindow.geometry("500x800")
-dexwindow.title("Jackiedex")
+dexwindow.title("Pokedex")
 dexwindow.config(padx=10, pady=10)
 
-title_label = tk.Label(dexwindow, text="Jackiedex")
+title_label = tk.Label(dexwindow, text="Pokedex")
 title_label.config(font=("Times New Roman", 32))
 title_label.pack(padx=10, pady=10)
 
